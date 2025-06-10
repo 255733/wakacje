@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/255733/wakacje/static/css/main.553c524a.css",
-    "main.js": "/255733/wakacje/static/js/main.523c8b34.js",
-    "static/media/tlo.jpg": "/255733/wakacje/static/media/tlo.3588149b382a9c78d902.jpg",
-    "index.html": "/255733/wakacje/index.html",
-    "main.553c524a.css.map": "/255733/wakacje/static/css/main.553c524a.css.map",
-    "main.523c8b34.js.map": "/255733/wakacje/static/js/main.523c8b34.js.map"
+    "main.css": "/wakacje/static/css/main.df39e6ce.css",
+    "main.js": "/wakacje/static/js/main.83aad937.js",
+    "static/media/tlo.jpg": "/wakacje/static/media/tlo.3588149b382a9c78d902.jpg",
+    "index.html": "/wakacje/index.html",
+    "main.df39e6ce.css.map": "/wakacje/static/css/main.df39e6ce.css.map",
+    "main.83aad937.js.map": "/wakacje/static/js/main.83aad937.js.map"
   },
   "entrypoints": [
-    "static/css/main.553c524a.css",
-    "static/js/main.523c8b34.js"
+    "static/css/main.df39e6ce.css",
+    "static/js/main.83aad937.js"
   ]
 }
