@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/255733/wakacje/static/css/main.553c524a.css",
+    "main.js": "/255733/wakacje/static/js/main.523c8b34.js",
+    "static/media/tlo.jpg": "/255733/wakacje/static/media/tlo.3588149b382a9c78d902.jpg",
+    "index.html": "/255733/wakacje/index.html",
+    "main.553c524a.css.map": "/255733/wakacje/static/css/main.553c524a.css.map",
+    "main.523c8b34.js.map": "/255733/wakacje/static/js/main.523c8b34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.553c524a.css",
+    "static/js/main.523c8b34.js"
+  ]
+}
