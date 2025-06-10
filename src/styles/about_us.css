@@ -1,0 +1,23 @@
+/* about.css */
+
+.user-photo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .card-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .equal-height {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  

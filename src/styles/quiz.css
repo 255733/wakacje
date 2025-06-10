@@ -1,0 +1,111 @@
+/* src/styles/quiz.css */
+
+.container_spec {
+  max-width: 600px;
+  margin: 40px auto 80px; /* więcej na dole żeby footer się nie nakładał */
+  padding: 0 15px;
+}
+
+.quiz-title {
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #6a1b9a; /* fioletowy odcień */
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #4a148c;
+}
+
+input[type="radio"] + span {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.btn {
+  min-width: 150px;
+  font-weight: 600;
+}
+
+/* Stylizacja modala i zawartości */
+.modal {
+  max-width: 500px !important;
+  width: 90% !important;
+  border-radius: 8px;
+}
+
+.modal-content {
+  padding: 30px 24px;
+  text-align: center;
+}
+
+.modal-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin: 15px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-price {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 15px 0;
+  color: #2e7d32; /* zieleń */
+}
+
+.modal-footer {
+  padding: 10px 24px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* Responsywność */
+@media (max-width: 480px) {
+  .container_spec {
+    margin: 20px 10px 60px;
+  }
+
+  .card-content {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  input[type="radio"] + span {
+    font-size: 1rem;
+  }
+
+  .btn {
+    width: 100%;
+    min-width: unset;
+  }
+}
+
+/* Footer odsuń od dołu strony */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+
+#root {
+  flex: 1;
+}

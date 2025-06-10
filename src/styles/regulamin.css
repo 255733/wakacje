@@ -1,0 +1,22 @@
+.regulations {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.regulations-list {
+  padding-left: 20px;
+  line-height: 1.8;
+  list-style-type: decimal;
+}
+
+.regulations-list li {
+  margin-bottom: 15px;
+  font-size: 1.05rem;
+}
+
+.card-action .btn {
+  margin-top: 20px;
+}
+.no-shadow {
+  box-shadow: none !important;
+}

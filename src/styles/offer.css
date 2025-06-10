@@ -1,0 +1,24 @@
+.offer-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-width: 300px;
+  border-radius: 8px 0 0 8px;
+  user-select: none;
+}
+
+.offer-card {
+  margin-top: 30px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.price {
+  color: #2e7d32;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.rounded-toast {
+  border-radius: 8px;
+}

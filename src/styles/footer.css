@@ -1,0 +1,41 @@
+/* footer.css */
+
+.payment-methods {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 1rem;
+  }
+  
+  .payment-icon {
+    height: 30px;
+    width: auto;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 5px;
+    padding: 4px;
+    box-shadow: 0 1px 4px rgba(255, 255, 255, 0.2);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .payment-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .page-footer ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .page-footer ul li {
+    margin-bottom: 6px;
+  }
+  
+  .page-footer a {
+    transition: color 0.3s ease;
+  }
+  
+  .page-footer a:hover {
+    color: #ec407a !important;
+  }
+  

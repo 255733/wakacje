@@ -1,0 +1,71 @@
+/* Styl aktywnej zakładki */
+nav .active-nav > a {
+  background-color: #d81b60; /* mocniejszy róż */
+  color: white !important;
+  border-radius: 6px;
+  padding: 0 12px;
+}
+
+/* Styl hamburgera */
+.sidenav-trigger {
+  cursor: pointer;
+  padding-left: 1rem;
+}
+
+/* Responsywność i wygląd logo */
+.brand-logo {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+/* Styl linków na desktopie */
+nav ul li a {
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  padding: 0 12px;
+  border-radius: 6px;
+}
+
+nav ul li a:hover {
+  background-color: #f8bbd0;
+  color: #880e4f !important;
+}
+
+/* Styl linków w mobile */
+  /* Wyrównanie zawartości każdego linku w menu mobilnym */
+.sidenav li a {
+  display: flex;
+  justify-content: center; /* wyśrodkowanie poziome */
+  align-items: center;     /* wyśrodkowanie pionowe */
+  height: 48px;            /* standardowa wysokość */
+  padding: 0 16px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+
+
+.sidenav li.active-nav > a {
+  background-color: #ec407a;
+  color: white !important;
+  font-weight: 600;
+}
+
+/* Ustawienia kontenera */
+.nav-wrapper.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Zmniejszanie czcionek i marginesów na małych ekranach */
+@media (max-width: 600px) {
+  .brand-logo {
+    font-size: 1.5rem;
+  }
+
+  nav ul li a {
+    font-size: 0.95rem;
+  }
+}
+

@@ -1,0 +1,94 @@
+/* quiz.css */
+
+/* Ogólne */
+.container_spec {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .quiz-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #6a1b9a; /* fiolet z Materialize */
+  }
+  
+  .card {
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  /* Przycisk */
+  .quiz-submit-btn {
+    margin-top: 1.5rem;
+    background-color: #6a1b9a;
+    transition: background 0.3s ease;
+  }
+  
+  .quiz-submit-btn:hover {
+    background-color: #388e3c; /* zieleń */
+  }
+  
+  /* Wynik */
+  #wynik {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #e0f2f1;
+    color: #004d40;
+    font-weight: bold;
+  }
+  
+  /* Modal oferta */
+  .quiz-modal .modal-content {
+    padding: 2rem;
+  }
+  
+  .quiz-modal img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .quiz-modal h5 {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  
+  .quiz-modal .price {
+    font-size: 1.2rem;
+    color: #388e3c;
+    margin-bottom: 1rem;
+  }
+  
+  .quiz-modal .show-offer-btn {
+    background-color: #6a1b9a;
+    color: white;
+  }
+  
+  .quiz-modal .show-offer-btn:hover {
+    background-color: #2e7d32;
+  }
+  
+  /* Responsywność */
+  @media screen and (max-width: 600px) {
+    .quiz-title {
+      font-size: 2rem;
+    }
+  
+    .card-title {
+      font-size: 1.2rem;
+    }
+  
+    .quiz-modal h5 {
+      font-size: 1.4rem;
+    }
+  }
+  
